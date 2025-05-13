@@ -47,7 +47,7 @@
         };
 
         screenShot {
-            bindings = <&kp LG(LS(KP_NUMBER_5))>;
+            bindings = <&kp LG(LS(N5))>;
             key-positions = <28 29>;
         };
     };
