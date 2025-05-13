@@ -40,6 +40,16 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
+
+        app {
+            bindings = <&kp LG(SPACE)>;
+            key-positions = <26 27>;
+        };
+
+        screenShot {
+            bindings = <&kp LG(LS(KP_NUMBER_5))>;
+            key-positions = <28 29>;
+        };
     };
 
     macros {
