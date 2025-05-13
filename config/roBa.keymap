@@ -33,7 +33,7 @@
 
         double_quotation {
             bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
+            key-positions = <19 18>;
         };
 
         eq {
@@ -41,7 +41,7 @@
             key-positions = <24 25>;
         };
 
-        app {
+        appLauncher {
             bindings = <&kp LG(SPACE)>;
             key-positions = <26 27>;
         };
@@ -49,6 +49,16 @@
         screenShot {
             bindings = <&kp LG(LS(N5))>;
             key-positions = <28 29>;
+        };
+
+        backQuort {
+            bindings = <&kp GRAVE>;
+            key-positions = <19 20>;
+        };
+
+        singleQuote {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <17 18>;
         };
     };
 
